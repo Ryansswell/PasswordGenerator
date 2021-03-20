@@ -9,16 +9,12 @@ var generatePassword = "";
 var pool = "";
 var passwordText = "";
 
+
 function addCharacter(characters) {
   pool += characters;
   const addCharacter = Math.floor(Math.random() * characters.length);
   const added = (characters.charAt(addCharacter));
   generatePassword = generateNewPassword + added;
-}
-
-function generateNewPassword() {
-  var passwordLength = generatePassword();
-  var passwordText = document.querySelector("#password");
 }
 
 function writePassword() {
@@ -28,7 +24,7 @@ function writePassword() {
   if (passwordLength >= 8 && passwordLength <129) {
     addCharacter ();
   } else {
-    generatePassword();
+    generateNewPassword();
   };
 }
 
@@ -50,12 +46,18 @@ if (lowerCase || upperCase || numbers || special) {
 
   }
 
+  function generateNewPassword() {
+    var passwordText = document.querySelector("#password");
+  
+
+  }
   for (i =0; i < length; i++) {
     var random = (Math.floor(Math.random() * pool.length));
     var result = (pool.charAt(Math.random() * pool.length));
 
     generatePassword = generatePassword + result;
   }
+
   var finalPwd = ""
   for(f =0; f < length; f++) {
     finalPwd = (finalPwd + length(Math.random() * pool.length));
