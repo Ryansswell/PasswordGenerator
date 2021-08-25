@@ -14,26 +14,26 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: #eaf1f8;
 }
 
 .wrapper {
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 header {
   text-align: center;
-  padding: 20px;
-  padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  padding: 25px;
+  padding-top: 10px;
+  color: hsl(206, 12%, 27%);
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
-  border-width: 1px;
+  background-color: hsl(0, 60%, 97%);
+  border-radius: 15px;
+  border-width: 3px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
   color: hsl(206, 17%, 28%);
   font-size: 18px;
@@ -46,8 +46,8 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
-  height: 2px;
+  background: #eaeef3;
+  height: 4px;
 }
 
 .card-body {
@@ -62,8 +62,8 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
-  height: 2px;
+  background: #ebeef1;
+  height: 4px;
 }
 
 .card-footer::after {
@@ -74,14 +74,14 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
-  border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
-  color: hsl(0, 0%, 100%);
+  background-color: rgb(55, 175, 8);
+  border-radius: 40px;
+  box-shadow: rgba(12, 12, 12, 0.1) 0px 1px 6px 0px rgba(10, 9, 9, 0.2) 0px 1px
+    1px 0px;
+  color: hsl(0, 29%, 97%);
   display: inline-block;
-  font-size: 22px;
-  line-height: 22px;
+  font-size: 24px;
+  line-height: 25px;
   margin: 16px 16px 16px 20px;
   padding: 14px 34px;
   text-align: center;
@@ -90,7 +90,7 @@ header {
 
 button[disabled] {
   cursor: default;
-  background: #c0c7cf;
+  background: #cad2db;
 }
 
 .float-right {
@@ -104,13 +104,13 @@ button[disabled] {
   border: none;
   display: block;
   width: 100%;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 85px;
+  padding-top: 17px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-bottom: 75px;
   font-size: 1.2rem;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 14px;
   margin-bottom: 10px;
   border: 2px dashed #c0c7cf;
   border-radius: 6px;
