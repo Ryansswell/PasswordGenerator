@@ -1,4 +1,4 @@
-# <Interactive Password Generator>
+## Ryan's Password Generator
 
 - This is a unique project of mine that has helped me learn more JavaScript, HTML and CSS.
 - This project is to help anyone with a unique password!
